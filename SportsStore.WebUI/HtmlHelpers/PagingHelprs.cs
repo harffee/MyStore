@@ -6,7 +6,7 @@ using SportsStore.WebUI.Models;
 namespace SportsStore.WebUI.HtmlHelpers
 {
 
-    public static class PagingHelps
+    public static class PagingHelprs
     {
         public static MvcHtmlString PageLinks(this HtmlHelper html,
                                                 PagingInfo pagingInfo,
