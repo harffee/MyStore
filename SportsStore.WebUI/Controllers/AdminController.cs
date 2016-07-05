@@ -7,7 +7,7 @@ using System;
 using System.Web;
 
 namespace SportsStore.WebUI.Controllers
-{
+{   [Authorize]
     public class AdminController : Controller
     {
         // GET: Admin
